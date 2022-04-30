@@ -1,3 +1,9 @@
-age = int(input("현재 나이를 입력하시오.: "))
-age = age + 10
-print("10년후면", age, " 세가 되시는 군요")
+print("########################")
+print("# 배송료 계산 프로그램 #")
+print("########################")
+price= int(input("상품의 가격을 입력하세요: "))
+if price > 2000:
+ shipping_cost = 0
+else:
+ shipping_cost = 3000
+print(shipping_cost)
